@@ -42,10 +42,10 @@ export default function App() {
       {analyzerData && <WaveForm analyzerData={analyzerData} />}
       <div
         style={{
-          height: 100,
+          height: 80,
           display: "flex",
           justifyContent: "space-around",
-          alignItems: "center"
+          alignItems: "center",
         }}
       >
         <input type="file" accept="audio/*" onChange={onFileChange} />
